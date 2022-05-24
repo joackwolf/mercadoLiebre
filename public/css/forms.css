@@ -1,0 +1,58 @@
+main form {
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.btnLabel {
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    margin: 10px 0px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tituloLabel {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 10px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+input[type="file"] {
+    margin-top: 0;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: 100px;
+    
+    background-color: #1259c3;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.btns {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnEnviar:hover {
+    background-color: #0022AA;
+}
+
